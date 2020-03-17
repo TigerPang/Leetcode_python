@@ -27,5 +27,7 @@ if __name__ == '__main__':
     main()
 
 '''
- Time complexity: O(2n)=O(n). 
+ Time complexity: O(2n)=O(n).
+ Space complexity: O(min(m, 26)), where m is the longest sub string without repeat
+ and 26 is the 26 English alphabet.
 '''
